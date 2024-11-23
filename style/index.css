@@ -1,0 +1,25 @@
+.fullPage{
+
+}
+
+.foreground{
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headIcon{
+    max-width: 25%;
+}
+
+#headLine{
+    text-align: center;
+}
+
+#bilibiliLogo{
+    max-width: 10%;
+}
