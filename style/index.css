@@ -9,15 +9,20 @@ main{
     width: 100%;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     display: grid;
     place-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .foreground{
-    width: 60%;
-    height: 60%;
+    margin: 1vh;
+    max-width: 60vw;
+    min-width: 50vw;
+    height: 48vh;
     border-radius: 4em;
     backdrop-filter: blur(10px) brightness(0.8);
     display: grid;
@@ -25,7 +30,7 @@ main{
 }
 
 
-#headIcon{
+.headIcon{
     position: relative;
     top: 10%;
     height: 20vh;
@@ -33,18 +38,18 @@ main{
     border-radius: 50%;
 }
 
-#headLine{
+.headLine{
     margin: 5px;
     color: white;
     font-size: 5vh;
     text-align: center;
 }
 
-#bilibiliHref{
+.bilibiliHref{
     position: relative;
-    top: -30%;
+    top: -20%;
 }
 
-#bilibiliLogo{
+.bilibiliLogo{
     height: 5vh;
 }
