@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+}
+
+.foreground{
+    padding: 5vw;
+
+    border-radius: 2em;
+    backdrop-filter: blur(10px) brightness(0.8);
+
+    place-items: center;
+}
+
+.window2048{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    place-items: center;
+}
+
+.block2048{
+    margin: 0;
+
+    height: 10vw;
+    width: 10vw;
+
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 3vw;
+
+    border: 2px solid white;
+}
