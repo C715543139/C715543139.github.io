@@ -1,3 +1,4 @@
+/* This implement is convert from C. */
 const MAP_SIZE = 4;
 const SWAP = (x, y) => [y, x]
 
@@ -94,7 +95,7 @@ function PrintMap() {
     }
 }
 
-// main
+/* main */
 Initiate();
 PrintMap();
 document.addEventListener("keydown", (event)=>{
