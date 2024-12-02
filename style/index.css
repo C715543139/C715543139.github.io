@@ -89,12 +89,11 @@ main {
 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .itemsIcon{
-    margin-top: 0.1vw;
-
-    height: 10vw;
+    height: 7vw;
 }
 
 a, a:visited{
