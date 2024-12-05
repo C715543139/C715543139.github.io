@@ -85,7 +85,7 @@ main {
 
 .category {
     margin: 2vw;
-    height: 10vw;
+    height: 10vh;
 
     display: flex;
     justify-content: center;
@@ -93,7 +93,7 @@ main {
 }
 
 .itemsIcon{
-    height: 7vw;
+    max-height: 100%;
 }
 
 a, a:visited{
@@ -103,9 +103,9 @@ a, a:visited{
 .itemsText{
     margin: 0;
 
-    width: 20vw;
+    min-width: 35%;
 
-    font-size: 4vw;
+    font-size: clamp(27px, 3.5vw, 4vw);
     font-weight: bold;
     color: white;
 
