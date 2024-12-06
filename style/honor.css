@@ -20,6 +20,22 @@ body{
     align-items: center;
 }
 
+main{
+    display: flex;
+}
+
+#title1{
+    margin: 1vh;
+
+    color: gold;
+}
+
+#title2{
+    margin: 1vh;
+
+    color: navy;
+}
+
 .foreground{
     margin: 1vw;
 
