@@ -1,2 +1,0 @@
-function e(){document.title=["Page From C715543139","每日 commit 挑战中"][Number("visible"===document.visibilityState)]}e(),document.addEventListener("visibilitychange",e);let t=document.getElementsByTagName("main")[0],i=document.getElementById("overlay");t.addEventListener("mouseenter",()=>{i.style.opacity=0}),t.addEventListener("mouseleave",()=>{i.style.opacity=1});
-//# sourceMappingURL=index.6ab6b9be.js.map
