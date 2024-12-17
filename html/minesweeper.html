@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQND75NDSV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-YQND75NDSV');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>扫雷</title>
+    <link rel="icon" href="../image/icon.png">
+    <link rel="stylesheet" href="../style/minesweeper.css">
+</head>
+<body>
+<section class="foreground">
+    <div class="toolbar">
+        <div id="mode">难度设置</div>
+        <div id="counter">占</div>
+        <div id="restart">重来！</div>
+    </div>
+    <canvas id="map"></canvas>
+</section>
+</body>
+<script src="../script/minesweeper.js"></script>
+</html>
