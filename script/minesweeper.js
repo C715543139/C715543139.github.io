@@ -211,6 +211,9 @@ canvas.addEventListener("click", (event) => {
 canvas.addEventListener("contextmenu", (event) => {
     event.preventDefault();
     setFlag(event.offsetX, event.offsetY);
+    if (mapStatus[1][2] === 2 && mapStatus[1][3] === 2) {
+        alert("12/13:🎂永泽生日快乐~🎂");
+    }
 })
 canvas.addEventListener("dblclick", (event) => {
     event.preventDefault();
