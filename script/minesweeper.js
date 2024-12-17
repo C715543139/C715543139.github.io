@@ -4,18 +4,18 @@ const ctx = canvas.getContext("2d");
 const cellSize = 50;
 const counter = document.getElementById("counter");
 const ratio = window.devicePixelRatio;
-let height = 9, width = 9;
+var height = 9, width = 9;
 
 // 扫雷地图，0表示无雷，1表示有雷
-let minesMap;
+var minesMap;
 // 地图状态，0表示揭开，1表示未揭开，2表示旗帜
-let mapStatus;
+var mapStatus;
 // 地雷数目
-let minesCount = 10;
+var minesCount = 10;
 // 首开无雷
-let first = true;
+var first = true;
 // 旗帜计数
-let flagCount;
+var flagCount;
 
 // 绘制扫雷游戏网格
 function drawGrid() {
