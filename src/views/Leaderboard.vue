@@ -18,22 +18,22 @@ const categories: Category[] = [
     members: [
       {
         name: 'ComoUMAflor',
-        avatar: new URL('@/assets/heads/head5.webp', import.meta.url).href,
+        avatar: new URL('/src/assets/heads/head5.webp', import.meta.url).href,
         link: 'https://space.bilibili.com/13059416',
       },
       {
         name: '明月栞那那那那',
-        avatar: new URL('@/assets/heads/head2.gif', import.meta.url).href,
+        avatar: new URL('/src/assets/heads/head2.gif', import.meta.url).href,
         link: 'https://space.bilibili.com/335085137',
       },
       {
         name: '云清婉莹',
-        avatar: new URL('@/assets/heads/head3.png', import.meta.url).href,
+        avatar: new URL('/src/assets/heads/head3.png', import.meta.url).href,
         link: 'https://space.bilibili.com/3494360033266439',
       },
       {
         name: '魉魍魅魑饕餮',
-        avatar: new URL('@/assets/heads/head4.avif', import.meta.url).href,
+        avatar: new URL('/src/assets/heads/head4.avif', import.meta.url).href,
         link: 'https://space.bilibili.com/299607911',
       },
     ],
@@ -44,12 +44,12 @@ const categories: Category[] = [
     members: [
       {
         name: 'Styelx_-疯石楪',
-        avatar: new URL('@/assets/heads/head7.jpg', import.meta.url).href,
+        avatar: new URL('/src/assets/heads/head7.jpg', import.meta.url).href,
         link: 'https://space.bilibili.com/394745859',
       },
       {
         name: '说书人-诸葛渊',
-        avatar: new URL('@/assets/heads/head6.avif', import.meta.url).href,
+        avatar: new URL('/src/assets/heads/head6.avif', import.meta.url).href,
         link: 'https://space.bilibili.com/237161070',
       },
     ],
